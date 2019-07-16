@@ -24,6 +24,8 @@
   //store.commit('increment');
   //console.log(store.getters.evenOrOdd);
   //console.log(store.state.count);
+
+
 </script>
 
 <style>
