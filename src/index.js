@@ -4,6 +4,10 @@ import store from './store'
 import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css'
 import App from './App.vue';
+import  VueWindowModal  from  'vue-window-modal'
+
+Vue.use(VueWindowModal)
+
 
 let geoJsonCurrentGauges;
 let geoJsonGaugeDataForecast;
