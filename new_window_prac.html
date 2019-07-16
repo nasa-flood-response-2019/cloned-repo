@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Window 3D Map</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <button @click="myFunction()">Click Me</button>
+</div>
+
+<script type="text/javascript">
+    new Vue({
+        el: '#app',
+        data: {
+            myModel:false
+        },
+        methods:{
+            myFunction: function () {
+                window.open("https://eager-meninsky-0a9915.netlify.com/", "_blank");
+                //this link goes to the task 3 ArcGIS leaflet example
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
